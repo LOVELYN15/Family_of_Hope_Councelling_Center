@@ -2,5 +2,10 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
     font-style: oblique;
-    font-size: 50px;
+    font-size: 95px;
+    display: flex;
+    justify-content: space-between;
+    padding: 150px;
+    line-height: 107px;
+    text-align: center;
 }
