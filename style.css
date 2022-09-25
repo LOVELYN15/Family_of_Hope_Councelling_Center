@@ -2,10 +2,26 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
     font-style: oblique;
-    font-size: 95px;
+    font-size: 50px;
     display: flex;
-    justify-content: space-between;
-    padding: 150px;
+    justify-content: space-around;
+    padding-top: 150px;
     line-height: 107px;
     text-align: center;
+    margin: 0 10%;
+    flex-wrap: wrap;
+}
+.p-1 {
+    text-align: center;
+    color: #000;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    line-height: 50px;
+}
+.body {
+    background-image: url(/images/fam-pic.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
