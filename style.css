@@ -33,6 +33,10 @@
 #section-1, div, a, p {
     color: #EB653A;
 }
+#section-1,div,a, p:hover {
+    color: white;
+    text-decoration: none;
+}
 #section-1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
@@ -46,10 +50,6 @@
     margin: 0 10%;
     flex-wrap: wrap;
 }
-#section-1,div,a, p:hover {
-    color: white;
-    text-decoration: none;
-}
 .p-1 {
     text-align: center;
     color: white;
@@ -62,4 +62,15 @@
 .body {
     background-color: #180B6A;
     padding-bottom: 100px;
+}
+#section-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#section-2, div, a, p {
+    color: #0D6EFD;
+}
+#section-2, div, h1 {
+    color: black;
 }
