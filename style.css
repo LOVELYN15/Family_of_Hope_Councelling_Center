@@ -67,10 +67,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding: 90px;
 }
 #section-2, div, a, p {
     color: #0D6EFD;
 }
+#section-2, div, a, p:hover {
+    color: #0D6EFD;
+}
+#section-2, div, a, p
 #section-2, div, h1 {
     color: black;
 }
