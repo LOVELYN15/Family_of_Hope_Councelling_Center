@@ -17,7 +17,7 @@
 }
 .btn-2 {
     color: #180B6A;
-    background-color: #EB653A;
+    background-color: #EEF6FF;
     padding: 10px;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -31,7 +31,7 @@
     transition: 0.6s ease-out;
 }
 #section-1, div, a, p {
-    color: #EB653A;
+    color: #EEF6FF;
 }
 #section-1,div,a, p:hover {
     color: white;
@@ -59,8 +59,11 @@
     line-height: 50px;
     word-spacing: 5px;
 }
+.p-1:hover {
+    color: white;
+}
 .body {
-    background-color: #180B6A;
+    background-color: #0D6EFD;
     padding-bottom: 100px;
 }
 #section-2 {
@@ -68,12 +71,13 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 90px;
+    background-color: #EB653A;
 }
 #section-2, div, a, p {
-    color: #0D6EFD;
+    color: #180B6A;
 }
 #section-2, div, a, p:hover {
-    color: #0D6EFD;
+    color: #180B6A;
 }
 #section-2, div, a, p
 #section-2, div, h1 {
