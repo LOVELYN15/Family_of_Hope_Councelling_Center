@@ -9,4 +9,4 @@ None
 ## Technologies Used 
 HTML For MarkUp, CSS For Styling, Bootstrap For Responsiveness, Javascript For Validation, SQL & PHP For Database
 ## Support And Contacts Details
-lovelynokore4@gmail.com
+Incase you have any issues, concerns or questions using my website please feel free to contact me on the email below: lovelynokore4@gmail.com
