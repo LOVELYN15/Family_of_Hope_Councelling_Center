@@ -10,4 +10,3 @@ None
 HTML For MarkUp, CSS For Styling, Bootstrap For Responsiveness, Javascript For Validation, SQL & PHP For Database
 ## Support And Contacts Details
 lovelynokore4@gmail.com
-### License
