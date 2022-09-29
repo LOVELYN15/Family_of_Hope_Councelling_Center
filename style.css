@@ -62,7 +62,7 @@
 .p-1:hover {
     color: white;
 }
-.body {
+.body-1 {
     background-color: #0D6EFD;
     padding-bottom: 100px;
 }
@@ -82,13 +82,4 @@
 #section-2, div, a, p
 #section-2, div, h1 {
     color: black;
-}
-.booking1, h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bolder;
-    font-style: oblique;
-    font-size: 50px;
-    padding: 50px;
-    font-size: 100px;
-    text-align: center;
 }
