@@ -50,3 +50,27 @@
 .steps {
     border: 1px solid #e3e3e3;
 }
+.steps li.inactive:not(:last-child)::after {
+    border-left-color : #fff;
+}
+.is-embedded .steps li:not(:last-child)::after {
+    border-top-width: 16px;
+    border-bottom-width: 16px;
+    margin-top: -16px;
+}
+.steps li:not(:last-child)::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 21px solid rgba(0, 0, 0, 0);
+    border-bottom: 21px solid rgba(0, 0, 0, 0);
+    border-left: 10px solid #f5f5f5;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    z-index: 3;
+}
+::after {
+    box-sizing: border-box;
+}
