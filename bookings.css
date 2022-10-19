@@ -82,6 +82,24 @@ ol {
 ::before {
     box-sizing: border-box;
 }
+.steps li.active a {
+    color: #313131;
+}
+.steps li.step-pick-appointment a {
+    cursor: pointer;
+}
+.steps li a {
+    cursor: default;
+    color: #686868;
+    text-decoration: none;
+}
+a {
+    background: rgba(0, 0, 0, 0);
+}
+.steps li {
+    list-style-type: none;
+    text-align: center;
+}
 .steps li.inactive:not(:last-child)::after {
     border-left-color : #fff;
 }
