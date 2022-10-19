@@ -1,3 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+body {
+    font-family: 'Source Sans Pro',Helvetica,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
 .d-flex {
     padding: 10px;
 }
@@ -103,6 +115,9 @@ a {
     width: 33.3333333333336%;
     border-right: 1px solid #e3e3e3;
     position: relative;
+}
+.is-embedded .steps {
+    border: 1px solid #e3e3e3;
 }
 .is-embedded .steps li {
     padding: 5px 0;
