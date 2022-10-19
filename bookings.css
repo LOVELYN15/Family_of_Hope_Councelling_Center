@@ -61,6 +61,27 @@ ol {
     border-radius: 4px;
     background-color: #f5f5f5;
 }
+.is-embedded .steps li:not(:last-child)::before {
+    border-top-width: 16px;
+    border-bottom-width: 16px;
+    margin-top: -16px;
+}
+.steps li:not(:last-child)::before {
+    content: " ";
+    width: 0;
+    height: 0;
+    border-top: 21px solid rgba(0, 0, 0, 0);
+    border-bottom: 21px solid rgba(0, 0, 0, 0);
+    border-left: 10px solid #e3e3e3;
+    position: absolute;
+    top: 50%;
+    margin-left: 1px;
+    left: 100px;
+    z-index: 3;
+}
+::before {
+    box-sizing: border-box;
+}
 .steps li.inactive:not(:last-child)::after {
     border-left-color : #fff;
 }
@@ -70,7 +91,7 @@ ol {
     margin-top: -16px;
 }
 .steps li:not(:last-child)::after {
-    content: "";
+    content: " ";
     display: block;
     width: 0;
     height: 0;
