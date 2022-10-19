@@ -88,11 +88,20 @@ ol {
     position: absolute;
     top: 50%;
     margin-left: 1px;
-    left: 100px;
+    left: 100%;
     z-index: 3;
+}
+.steps li.active:not(:last-child)::after {
+    border-left-color: #fff;
 }
 ::before {
     box-sizing: border-box;
+}
+.steps li.active {
+    border-bottom-color: #000000;
+    background: #fff;
+    margin-bottom: -1px;
+    border-bottom: 1px solid #313131;
 }
 .steps li.active a {
     color: #313131;
