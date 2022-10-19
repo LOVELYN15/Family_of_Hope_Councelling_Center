@@ -100,6 +100,9 @@ a {
     list-style-type: none;
     text-align: center;
     display: table-cell;
+    width: 33.3333333333336%;
+    border-right: 1px solid #e3e3e3;
+    position: relative;
 }
 .is-embedded .steps li {
     padding: 5px 0;
@@ -125,6 +128,9 @@ a {
     top: 50%;
     left: 100%;
     z-index: 3;
+}
+.steps li:last-child {
+    border-right: none;
 }
 ::after {
     box-sizing: border-box;
