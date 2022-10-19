@@ -99,6 +99,11 @@ a {
 .steps li {
     list-style-type: none;
     text-align: center;
+    display: table-cell;
+}
+.is-embedded .steps li {
+    padding: 5px 0;
+    height: 32px;
 }
 .steps li.inactive:not(:last-child)::after {
     border-left-color : #fff;
